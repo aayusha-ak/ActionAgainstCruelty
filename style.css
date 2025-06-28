@@ -1,0 +1,462 @@
+
+
+/* CSS file for ActionAgainstCruelty*/
+
+/* Home Tab */
+
+.contentBox {
+  display: none;
+}
+
+.tabs{
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  flex-wrap: wrap;
+  height: 50px;
+  margin-top: 15px;;
+  
+  
+  
+}
+.tablinks
+{
+  background-color: rgb(76,175,80);
+  flex:1;
+  border: none;
+  font-family:'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s;
+
+  
+}
+
+.tablinks:hover{
+  background-color: rgb(102, 187, 106);
+}
+
+.tabs button.active {
+  background-color: rgb(46, 125, 50);
+
+}
+
+
+.homeHeader{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.homeHeading{
+ 
+  color: black;
+  margin-top: 0px;
+  width: 60%; 
+  font-family: 'Oswald'; 
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 5px;
+  
+}
+
+.homeImage{
+  height: auto;
+  margin-top:0px;
+  border-radius: 10px;
+  width: 70%; 
+  text-align: center;
+}
+
+.homeImageCitation {
+  font-family: 'Lora';
+  font-size: 12px;
+  color: grey;
+  margin-top: 10px;
+  font-style: italic;
+  
+}
+.homeImageCitation a{
+  color: grey;
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+}
+
+.homeImageCitation a:hover{
+  text-decoration: underline;
+}
+
+.homeSubheading{
+  color: black;
+  margin-top: 0px;
+  width: 60%; 
+  font-family: 'Roboto'; 
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.overviewContainer{
+  display: grid;
+  grid-template-rows: repeat(auto-fit,minmax(200px,1fr)); 
+  gap: 15px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top:70px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  
+
+}
+.overviewText{
+  align-items: center;
+  text-align: center;
+  color: black;
+  background-color: rgba(189, 230, 190, 0.4);
+  font-size: 20px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  border-color: rgb(46, 125, 50);
+  border-width: 8px;
+  border-style: solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  
+  
+}
+
+
+
+
+/* Info Tab */
+
+.infoHeader{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  gap: 20px;
+}
+.infoFirstParagraph{
+  
+  color: black;
+  margin-top: 0px;
+  width: 60%; 
+  font-family: 'Open Sans'; 
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 80px;
+  
+}
+
+.customDivider {
+  height: 180px;
+  background-color: rgb(142, 26, 26);
+  width: 5px;
+  
+}
+
+.infoSecondParagraph{
+  
+  color: black;
+  margin-top: 0px;
+  width: 60%; 
+  font-family: 'Open Sans'; 
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-right: 80px;
+}
+
+
+
+.infoPageGridContainer {
+  display: grid;
+  grid-template-rows: repeat(auto-fit,minmax(300px,1fr)); 
+  gap: 15px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top:70px;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+  
+  
+}
+
+.animalBox
+{
+  border-color:rgb(142,26,26);
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Open Sans';
+}
+
+
+.headingForAnimals {
+  font-family: 'Oswald';
+  font-size: 30px;
+  color: rgb(142, 26, 26);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.animalSubheading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #b93a3af3;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.citation {
+  color: gray; 
+  font-style: italic;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Lora';
+}
+
+
+
+/* Impact Tab*/
+
+.impactPageGridContainer{
+  display: grid;
+  grid-template-rows: repeat(auto-fit,minmax(200px,1fr)); 
+  gap: 15px;
+  border-radius: 10px;
+  margin-top:70px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.impactBox
+{
+  border: rgb(142, 26, 26);
+  border-width:6px;
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Open Sans';
+
+  
+}
+.impactHeading {
+  font-family: 'Oswald';
+  font-size: 30px;
+  color: rgb(142, 26, 26);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Animal slideshow in info tab*/
+
+.slideshowContainer 
+{
+  
+  height: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: repeat(auto-fit,minmax(200px,1fr)); 
+  gap: 15px; 
+}
+
+.animalSlideshow
+{
+display: none;
+width: 100%;
+max-width: 800px;
+height: 500px;
+margin: auto;
+overflow: hidden;
+position: relative;
+
+
+}
+
+.animalSlideshow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.prev, .next{
+  cursor: pointer;
+  position:absolute;
+  top:50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #8e1a1a;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 06s ease;
+  border-radius: 0 3px 3px 0;
+  opacity: 0.8;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.photoNum {
+  color:White;
+  font-size: 18px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.gallaryHeading{
+  margin-top: 50px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: Bold;
+  color: rgb(142, 26, 26);
+  text-align: center;
+}
+
+.photoCredit {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: rgba(128, 128, 128, 0.5);
+  color:white;
+  font-family: 'Lora';
+  font-size: 12px;
+  font-style: italic;
+  
+}
+
+.photoCredit a {
+  text-decoration: none;
+  color: white;
+}
+
+.photoCredit a:hover
+{
+  text-decoration: underline;
+}
+
+.photoWrapper {
+  position: relative;
+}
+
+
+
+
+
+
+/* Take Action Tab*/
+
+.takeActionGridContainer {
+  display: grid;
+  grid-template-rows:repeat(auto-fit,minmax(300px,1fr)); 
+  gap: 15px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top:70px;
+  margin-right: 50px;
+  margin-left: 50px; 
+  
+}
+
+.actionBox
+{
+  border-color: rgb(46, 125, 50);
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+}
+
+.actionHeading {
+  font-family: 'Oswald';
+  font-size: 30px;
+  color: rgb(46, 125, 50);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.actionTextLink a{
+font-family: "Lora";
+text-decoration: none;
+transition: text-decoration 0.3s;
+
+}
+
+.actionTextLink:hover a{
+text-decoration: underline;
+}
+
+.actionText{
+font-family: 'Open Sans';
+
+}
+
+.actionTitle{
+  position:flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color:rgb(34, 93, 37)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
