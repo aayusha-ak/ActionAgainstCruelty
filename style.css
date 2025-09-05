@@ -446,6 +446,19 @@ font-family: 'Open Sans';
   color:rgb(34, 93, 37)
 }
 
+.PlantBasedLink {
+  font-family: 'Lora';
+  font-size: 20px;
+  color: rgb(46, 125, 50);
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+}
+
+.PlantBasedLink:hover {
+  text-decoration: underline;
+}
+
 
 
 
